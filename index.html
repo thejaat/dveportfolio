@@ -17,21 +17,24 @@
     <title>Developer</title>
 </head>
 <body>
-    <header class="d-flex align-items-center justify-content-around mt-4">
-        <h1 class="fs-1">John Doe</h1>
-        <nav>
-            <ul class="list-unstyled d-lg-flex align-items-center  d-none ">
-                <li class="ms-5 list_item"><a class="text-decoration-none text-dark fs-4" href="#aboutMe">About</a></li>
-                <li class="ms-5 list_item"><a class="text-decoration-none text-dark fs-4"
+  <header class="d-flex align-items-center justify-content-lg-around justify-content-between mt-4">
+        <h1 class="fs-1 ms-4 ms-lg-0">John Doe</h1>
+        <div class="hamburger d-block d-lg-none me-4">
+            <div class="line1 line"></div>
+            <div class="line2 line"></div>
+            <div class="line3 line"></div>
+        </div>
+        <nav class="header-menu d-lg-block">
+            <ul class="list-unstyled d-lg-flex align-items-center ">
+                <li class="ms-5 list_item"><a class="text-decoration-none fs-4" href="#aboutMe">About</a></li>
+                <li class="ms-5 list_item"><a class="text-decoration-none fs-4"
                         href="#experienceme">Experience</a></li>
-                <li class="ms-5 list_item"><a class="text-decoration-none text-dark fs-4" href="#projectme">Projects</a>
+                <li class="ms-5 list_item"><a class="text-decoration-none fs-4" href="#projectme">Projects</a>
                 </li>
-                <li class="ms-5 list_item"><a class="text-decoration-none text-dark fs-4" href="#contactme">Contact</a>
+                <li class="ms-5 list_item"><a class="text-decoration-none fs-4" href="#contactme">Contact</a>
                 </li>
             </ul>
         </nav>
-        <div class="d-block d-lg-none">burger</div>
-        </div>
     </header>
 
     <main>
@@ -260,6 +263,8 @@
         </div>
         <p class="m-5 text-center">© Copyright John Doe. All Rights Reserved</p>
     </footer>
+        <script src="main.js"></script>
+
 </body>
 
 </html>
